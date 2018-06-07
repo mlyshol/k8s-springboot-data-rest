@@ -40,7 +40,7 @@ spec:
           secretName: mysql-secret
       containers:
       - name: po-service
-        image: mtcslabtest.azurecr.io/po-service:latest
+        image: mlyshol.azurecr.io/po-service:latest
         ports:
         - containerPort: 8080
           protocol: TCP
